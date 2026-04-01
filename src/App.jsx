@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -11,7 +11,6 @@ import GetStarted from './components/GetStarted';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 
-// Data from JSON
 import productsData from './data/products.json';
 
 const App = () => {
